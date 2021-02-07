@@ -1,0 +1,10 @@
+.container {
+    width: 90vw;
+    max-width: 998px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+

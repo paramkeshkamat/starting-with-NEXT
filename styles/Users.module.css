@@ -1,0 +1,44 @@
+.users {
+  min-height: 70vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90vw;
+  max-width: 998px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.user {
+  background-color: white;
+  width: 100%;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  border-left: 8px solid white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.user:hover {
+  border-left: 8px solid pink;
+}
+
+.singleUser {
+    min-height: 62vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90vw;
+    max-width: 998px;
+    margin: auto;
+    margin-top: 50px;
+}
